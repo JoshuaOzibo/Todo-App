@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(100deg, #e2c35d, #d88771, rgb(164, 184, 94));
+}
+form{
+    margin: 10px auto;
+    width: 300px;
+    height: 300px;
+    box-shadow: 8px 10px 9px rgba(0,0,0, .2),
+    -8px -10px 9px #ffe96b4b;
+}
+.color{
+    color: #93dbc9e7;
+}
+header{
+    margin-top: 80px;
+}
+header, .form{
+    display:block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nameinput{
+    background: #f4f4f4;
+    border: none;
+    margin-top: 10px;
+    width: 270px;
+    height: 30px;
+    border-radius: 3px;
+    box-shadow: 8px 7px 7px rgba(0,0,0, .2),
+    -5px -7px 7px #ffe96b4b;
+}
+.emailinput{
+    background: #f4f4f4;
+    border: none;
+    margin-top: 10px;
+    width: 270px;
+    height: 30px;
+    border-radius: 3px;
+    box-shadow: 8px 7px 7px rgba(0,0,0, .2),
+    -5px -7px 7px #ffe96b4b;
+}
+.phoneinput{
+    background: #f4f4f4;
+    border: none;
+    margin-top: 10px;
+    width: 270px;
+    height: 30px;
+    border-radius: 3px;
+    box-shadow: 8px 7px 7px rgba(0,0,0, .2),
+    -5px -7px 7px #ffe96b4b;
+}
+.btn{
+    margin-right: 20px;
+    border: none;
+}
+#select{
+    border: none;
+}
+.btn, #select{
+    outline: none;
+    background: #93dbc9e7;
+    margin-left: 10px;
+    width: 100px;
+    margin-top: 30px;
+    height: 45px;
+    border-radius: 3px;
+    box-shadow: 5px 7px 7px rgba(0,0,0, .2),
+    -6px -7px 5px #ffe96b4b;
+}
+#select:hover{
+    color: #000;
+    transition: 0.25s ease;
+    width: 110px;
+    background: #0000;
+}
+.btn:hover{
+    color: #f5f5f5;
+    transition: 0.25s ease;
+    width: 110px;
+    background: #0000;
+}
+.list1{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 30px auto;
+    background: #93dbc9e7;
+    width: 580px;
+    height: 28px;
+    padding-top: 3px;
+}
+@media(max-width: 500px){
+    .list1{
+        width: 100%;
+        height: 60%;
+    }
+}
+.listbad{
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    font-size: 25px;
+    width: 30px;
+    height: 29px;
+    background: red;
+    margin-top: -22px;
+    margin-right: 0px;
+}
+.listgood{
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    font-size: 20px;
+    width: 30px;
+    height: 29px;
+    background: green;
+    margin-top: -22px;
+    margin-right: 2px;
+}
+@media(max-width: 500px){
+    .listgood, .listbad{
+        margin-top: -28px;
+    }
+}
+.goodclick{
+    transition: 0.5s ;
+    text-decoration: line-through;
+    opacity: 1;
+}
+.fall{
+    transition: 0.5s;
+    transform: translateY(8rem) rotatez(20deg);
+    opacity: 0;
+}
+.h31{
+    margin-top: 10px;
+    display:block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    background: #93dbc9e7;
+    color:red;
+    width: 300px;
+    height: 20px;
+    margin: auto;
+}

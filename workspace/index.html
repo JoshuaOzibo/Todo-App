@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Todo list</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<body>
+        <header>
+                <h3 class="h3"></h3>
+            <h1>MY <span class="color">TODO</span> LIST</h1>
+        </header>
+        <form class="form">
+            <div>
+                <label>Name:</label>
+                <input class="nameinput" type="text" placeholder=" enter name...">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="text" class="emailinput" placeholder=" enter email...">
+            </div>
+            <div>
+                <label>Phone no:</label>
+                <input type="text" class="phoneinput" placeholder=" enter phone number...">
+            </div>
+            <button class="btn">ADD</button>
+            <select name="" id="select">
+                <option value="all">All</option>
+                <option value="marked">Marked</option>
+                <option value="unmarked">Unmarked</option>
+            </select>
+        </form>
+        <div class="todo-div">
+            <ul class="list"></ul>
+        </div>
+        <script src="/learn.js"></script>
+</body>
+</html>
